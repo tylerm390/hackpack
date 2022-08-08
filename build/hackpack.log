@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.7)  8 AUG 2022 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.7)  8 AUG 2022 19:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -589,28 +589,32 @@ runsystem(python3 content/tex/preprocessor.py --print-header "|template.cpp" -o 
 
  (./build/header2.tmp) [2] (./content/geometry/chapter.tex
 Chapter 3.
-)
-runsystem(python3 content/tex/preprocessor.py --print-header "|template.cpp" -o build/header2.tmp)...executed.
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/point.h" -o build/kactl.tmp )...executed.
+
+(./build/kactl.tmp))
+runsystem(python3 content/tex/preprocessor.py --print-header "|point.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [3] (./content/graphs/chapter.tex
 Chapter 4.
 )
-runsystem(python3 content/tex/preprocessor.py --print-header "|template.cpp" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "|point.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [4] (./content/math/chapter.tex
 Chapter 5.
 )
-runsystem(python3 content/tex/preprocessor.py --print-header "|template.cpp" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "|point.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [5] (./content/numerical/chapter.tex
 Chapter 6.
 )
-runsystem(python3 content/tex/preprocessor.py --print-header "|template.cpp" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "|point.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [6] (./content/strings/chapter.tex
 Chapter 7.
 )
-runsystem(python3 content/tex/preprocessor.py --print-header "|template.cpp" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "|point.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [7]
 \tf@ptc=\write5
@@ -631,18 +635,18 @@ Package rerunfilecheck Info: File `hackpack.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 11086 strings out of 483183
- 161918 string characters out of 5966293
- 667936 words of memory out of 5000000
- 25812 multiletter control sequences out of 15000+600000
- 539646 words of font info for 52 fonts, out of 8000000 for 9000
+ 11161 strings out of 483183
+ 162758 string characters out of 5966293
+ 726936 words of memory out of 5000000
+ 25859 multiletter control sequences out of 15000+600000
+ 540373 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,11n,64p,860b,1467s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on build//hackpack.pdf (8 pages, 317272 bytes).
+ </home/tmarks39/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti0700.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on build//hackpack.pdf (8 pages, 334349 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 205 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 61 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
