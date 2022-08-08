@@ -1,0 +1,48 @@
+\contentsline {chapter}{\numberline {1}Contest}{1}{chapter.1}%
+\ttl@starttoc {chapters@1}
+\contentsline {section}{\texttt {template.cpp}\hspace {0.2em}}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Data structures}{1}{chapter.2}%
+\ttl@stoptoc {chapters@1}
+\ttl@starttoc {chapters@2}
+\contentsline {section}{\texttt {BIT.h}\hspace {0.2em}}{1}{chapter.2}%
+\contentsline {section}{\texttt {dsu.h}\hspace {0.2em}}{1}{lstnumber.2.1.22}%
+\contentsline {section}{\texttt {fenwicktree.h}\hspace {0.2em}}{1}{lstnumber.2.2.32}%
+\contentsline {section}{\texttt {SegmentTree.h}\hspace {0.2em}}{1}{lstnumber.2.3.24}%
+\contentsline {chapter}{\numberline {3}Geometry}{3}{chapter.3}%
+\ttl@stoptoc {chapters@2}
+\ttl@starttoc {chapters@3}
+\contentsline {section}{\texttt {seg.cpp}\hspace {0.2em}}{3}{chapter.3}%
+\contentsline {section}{\texttt {vec.cpp}\hspace {0.2em}}{3}{lstnumber.3.1.66}%
+\contentsline {section}{\texttt {circle.cpp}\hspace {0.2em}}{3}{lstnumber.3.2.24}%
+\contentsline {section}{\texttt {convexHull.cpp}\hspace {0.2em}}{4}{lstnumber.3.3.109}%
+\contentsline {section}{\texttt {polygonArea.cpp}\hspace {0.2em}}{4}{lstnumber.3.4.23}%
+\contentsline {section}{\texttt {closestpairpoints.cpp}\hspace {0.2em}}{4}{lstnumber.3.5.1}%
+\contentsline {section}{\texttt {AreaOfCircleUnion.cpp}\hspace {0.2em}}{4}{lstnumber.3.6.66}%
+\contentsline {chapter}{\numberline {4}Graphs}{6}{chapter.4}%
+\ttl@stoptoc {chapters@3}
+\ttl@starttoc {chapters@4}
+\contentsline {section}{\texttt {bellmanFord.cpp}\hspace {0.2em}}{6}{chapter.4}%
+\contentsline {section}{\texttt {floydWarshall.cpp}\hspace {0.2em}}{6}{lstnumber.4.1.24}%
+\contentsline {section}{\texttt {kruskalMST.cpp}\hspace {0.2em}}{6}{lstnumber.4.2.25}%
+\contentsline {section}{\texttt {Dinic.cpp}\hspace {0.2em}}{6}{lstnumber.4.3.50}%
+\contentsline {section}{\texttt {topSort.cpp}\hspace {0.2em}}{6}{lstnumber.4.4.47}%
+\contentsline {section}{\texttt {SCCTarjan.h}\hspace {0.2em}}{7}{lstnumber.4.5.27}%
+\contentsline {section}{\texttt {SCCKosaraju.h}\hspace {0.2em}}{7}{lstnumber.4.6.37}%
+\contentsline {section}{\texttt {dijkstra.h}\hspace {0.2em}}{7}{lstnumber.4.7.29}%
+\contentsline {chapter}{\numberline {5}Mathematics}{8}{chapter.5}%
+\ttl@stoptoc {chapters@4}
+\ttl@starttoc {chapters@5}
+\contentsline {section}{\texttt {Fraction.h}\hspace {0.2em}}{8}{chapter.5}%
+\contentsline {section}{\texttt {FractionOverflow.h}\hspace {0.2em}}{8}{lstnumber.5.1.27}%
+\contentsline {section}{\texttt {PrimeSieve.h}\hspace {0.2em}}{8}{lstnumber.5.2.43}%
+\contentsline {section}{\texttt {PrimeSieveFast.h}\hspace {0.2em}}{8}{lstnumber.5.3.14}%
+\contentsline {chapter}{\numberline {6}Miscellaneous}{9}{chapter.6}%
+\ttl@stoptoc {chapters@5}
+\ttl@starttoc {chapters@6}
+\contentsline {section}{\texttt {NDimensionalVector.h}\hspace {0.2em}}{9}{chapter.6}%
+\contentsline {section}{\texttt {Submasks.h}\hspace {0.2em}}{9}{lstnumber.6.1.12}%
+\contentsline {chapter}{\numberline {7}Strings}{10}{chapter.7}%
+\ttl@stoptoc {chapters@6}
+\ttl@starttoc {chapters@7}
+\contentsline {section}{\texttt {ZValues.h}\hspace {0.2em}}{10}{chapter.7}%
+\contentsfinish 
