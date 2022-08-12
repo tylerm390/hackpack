@@ -14,10 +14,10 @@ using vii = vector<pii>;
 using vvi = vector<vi>;
 
 int main() {
-  cin.tie(0)->sync_with_stdio(0);
-  cin.exceptions(cin.failbit);
+    cin.tie(0)->sync_with_stdio(0);
+    cin.exceptions(cin.failbit);
 
 
 
-  return 0;
+    return 0;
 }

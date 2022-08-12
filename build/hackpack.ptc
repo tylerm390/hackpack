@@ -8,6 +8,14 @@
 \ttl@stoptoc {chapters@2}
 \ttl@starttoc {chapters@3}
 \contentsline {section}{\texttt {point.h}\hspace {0.2em}}{3}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Lines and Segments}{3}{section.3.1}%
+\contentsline {subsection}{\texttt {sideOf.h}\hspace {0.2em}}{3}{section.3.1}%
+\contentsline {subsection}{\texttt {onSeg.h}\hspace {0.2em}}{3}{lstnumber.3.2.4}%
+\contentsline {subsection}{\texttt {lineIntersection.h}\hspace {0.2em}}{3}{lstnumber.3.3.3}%
+\contentsline {subsection}{\texttt {doSegIntersection.h}\hspace {0.2em}}{3}{lstnumber.3.4.6}%
+\contentsline {subsection}{\texttt {segIntersection.h}\hspace {0.2em}}{3}{lstnumber.3.5.4}%
+\contentsline {subsection}{\texttt {lineDistance.h}\hspace {0.2em}}{3}{lstnumber.3.6.9}%
+\contentsline {subsection}{\texttt {segDistance.h}\hspace {0.2em}}{3}{lstnumber.3.7.3}%
 \contentsline {chapter}{\numberline {4}Graphs}{4}{chapter.4}%
 \ttl@stoptoc {chapters@3}
 \ttl@starttoc {chapters@4}
