@@ -19,6 +19,7 @@
 \contentsline {section}{\numberline {3.2}Polygons}{3}{section.3.2}%
 \contentsline {subsection}{\texttt {polygonArea.h}\hspace {0.2em}}{3}{section.3.2}%
 \contentsline {subsection}{\texttt {inPolygon.h}\hspace {0.2em}}{3}{lstnumber.3.9.6}%
+\contentsline {subsection}{\texttt {convexHull.h}\hspace {0.2em}}{3}{lstnumber.3.10.11}%
 \contentsline {chapter}{\numberline {4}Graphs}{4}{chapter.4}%
 \ttl@stoptoc {chapters@3}
 \ttl@starttoc {chapters@4}
