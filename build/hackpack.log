@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.7)  12 AUG 2022 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.7)  15 AUG 2022 21:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -638,28 +638,47 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/segDistance.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp))
-runsystem(python3 content/tex/preprocessor.py --print-header "|segDistance.h" -o build/header2.tmp)...executed.
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/polygonArea.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\OT1/cmr/bx/n/7 Usage: \OT1/pcr/m/n/7 If area is negative, points are given cw, otherwise
+ []
+
+)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/inPolygon.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 13.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)))
+runsystem(python3 content/tex/preprocessor.py --print-header "|inPolygon.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [3] (./content/graphs/chapter.tex
 Chapter 4.
 )
-runsystem(python3 content/tex/preprocessor.py --print-header "|segDistance.h" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "|inPolygon.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [4] (./content/math/chapter.tex
 Chapter 5.
 )
-runsystem(python3 content/tex/preprocessor.py --print-header "|segDistance.h" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "|inPolygon.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [5] (./content/numerical/chapter.tex
 Chapter 6.
 )
-runsystem(python3 content/tex/preprocessor.py --print-header "|segDistance.h" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "|inPolygon.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [6] (./content/strings/chapter.tex
 Chapter 7.
 )
-runsystem(python3 content/tex/preprocessor.py --print-header "|segDistance.h" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "|inPolygon.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [7]
 \tf@ptc=\write5
@@ -680,18 +699,18 @@ Package rerunfilecheck Info: File `hackpack.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 11278 strings out of 483183
- 164109 string characters out of 5966293
- 899936 words of memory out of 5000000
- 25922 multiletter control sequences out of 15000+600000
- 540910 words of font info for 56 fonts, out of 8000000 for 9000
+ 11345 strings out of 483183
+ 164991 string characters out of 5966293
+ 969936 words of memory out of 5000000
+ 25961 multiletter control sequences out of 15000+600000
+ 541232 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,11n,64p,860b,1467s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,11n,64p,860b,1583s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on build//hackpack.pdf (8 pages, 364957 bytes).
+Output written on build//hackpack.pdf (8 pages, 368788 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 101 named destinations out of 1000 (max. 500000)
+ 281 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 121 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

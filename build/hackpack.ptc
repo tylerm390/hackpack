@@ -16,6 +16,9 @@
 \contentsline {subsection}{\texttt {segIntersection.h}\hspace {0.2em}}{3}{lstnumber.3.5.4}%
 \contentsline {subsection}{\texttt {lineDistance.h}\hspace {0.2em}}{3}{lstnumber.3.6.9}%
 \contentsline {subsection}{\texttt {segDistance.h}\hspace {0.2em}}{3}{lstnumber.3.7.3}%
+\contentsline {section}{\numberline {3.2}Polygons}{3}{section.3.2}%
+\contentsline {subsection}{\texttt {polygonArea.h}\hspace {0.2em}}{3}{section.3.2}%
+\contentsline {subsection}{\texttt {inPolygon.h}\hspace {0.2em}}{3}{lstnumber.3.9.6}%
 \contentsline {chapter}{\numberline {4}Graphs}{4}{chapter.4}%
 \ttl@stoptoc {chapters@3}
 \ttl@starttoc {chapters@4}
