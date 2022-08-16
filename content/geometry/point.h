@@ -10,7 +10,7 @@ const ld inf = 1e18;
 template<class T> struct pnt {
     T x, y;
     pnt(T _x = 0, T _y = 0): x(_x), y(_y) {}
-    bool operator<(pnt o) { return tie(x, y) < tie(o.x, o.y); }
+    bool operator<(pnt o) const { return tie(x, y) < tie(o.x, o.y); }
     pnt operator+(pnt o) { return pnt(x + o.x, y + o.y); }
     bool operator==(pnt o) const { return abs(x-o.x) < eps && abs(y-o.y) < eps; }
     pnt operator-(pnt o) { return pnt(x - o.x, y - o.y); }

@@ -1,6 +1,8 @@
 /**
  * Description: Uses shoelace theorem to find the area of a polygon. 
  * Usage: If area is negative, points are given cw, otherwise points are given ccw.
+ * Time: $O(n)$
+ * Memory: $O(n)$
  * Status: Tested on kattis::polygonarea
  */
 
