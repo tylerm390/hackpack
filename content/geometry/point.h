@@ -19,8 +19,8 @@ template<class T> struct pnt {
     T cross(pnt o) { return x*o.y - y*o.x; }
     T cross(pnt o1, pnt o2) { return (o1-*this).cross(o2-*this); }
     T mag2() { return dot(*this); }
-    ld mag() { return sqrtl(dist2()); }
-    pnt unit() { return *this * (1/dist()); }
+    ld mag() { return sqrtl(mag2()); }
+    pnt unit() { return *this * (1/mag()); }
     pnt perp() { return pnt(-y, x); }
     pnt norm() { return perp().unit(); }
     ld ang() { return atan2l(y, x); }
