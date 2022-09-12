@@ -1,5 +1,6 @@
 /**
  * Description: Handles vector/point operations in the cartesian plane. Works for any type. Ints may cause errors with integer division.
+ * Usage: Best used with floating point precision. Uses long doubles but if time is an issue, swith to doubles
  */
 
 #pragma once

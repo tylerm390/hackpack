@@ -2,7 +2,7 @@
  * Description: Uses the cutting-ray test to see if a point is inside a polygon.
  * Usage: Returns 0 if outside, 1 if strictly inside, and 2 if on.
  * Time: $O(n)$
- * Memory: $O(n)$
+ * Memory: $O(1)$
  * Status: tested on kattis::pointinpolygon
  */
 

@@ -2,6 +2,7 @@
  * Description: gets the smallest convex polygon containing all points using monotone chaining.
  * Time: $O(n\log{n})$
  * Memory: $O(n)$
+ * Status: tested on kattis:convexhull
  */
 
 template<class P> vector<P> convexHull(vector<P> poly){

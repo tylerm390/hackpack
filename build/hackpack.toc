@@ -1,10 +1,33 @@
 \contentsline {chapter}{\numberline {1}Contest}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Data structures}{2}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Geometry}{3}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Lines and Segments}{3}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Polygons}{3}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Graphs}{4}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Mathematics}{5}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Numerical Methods}{6}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Strings}{7}{chapter.7}%
+\contentsline {chapter}{\numberline {3}Geometry}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Lines and Segments}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Polygons}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Circles}{6}{section.3.3}%
+\contentsline {section}{\numberline {3.4}3D Geometry}{7}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Miscellaneous}{7}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Graphs}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Fundamentals}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Network flow}{9}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Matching}{10}{section.4.3}%
+\contentsline {section}{\numberline {4.4}DFS algorithms}{11}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Coloring}{12}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Heuristics}{12}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Trees}{13}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Math}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Modular arithmetic}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Primality}{15}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Divisibility}{16}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Bézout's identity}{16}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}Fractions}{16}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Pythagorean Triples}{16}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Primes}{16}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Estimates}{16}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Mobius Function}{16}{section.5.8}%
+\contentsline {chapter}{\numberline {6}Numerical Methods}{17}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Polynomials and recurrences}{17}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Optimization}{17}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Matrices}{18}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Fourier transforms}{19}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Strings}{21}{chapter.7}%
 \contentsfinish 
