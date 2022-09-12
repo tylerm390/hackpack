@@ -6,7 +6,7 @@
  */
 
 template<class P> pair<P, P> hullDiameter(vector<P> poly){
-    int n = sz(poly);
+    int n = sz(poly); if(n < 3) return 0;
     int j = 1;
     
     pair<ld, pair<P, P>> ans(0, pair<P, P>(poly[0], poly[0]));
