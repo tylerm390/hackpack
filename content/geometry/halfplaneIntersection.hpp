@@ -12,7 +12,7 @@ struct Line {
 	// Right hand side of the ray P1 -> P2
 	explicit Line(P a = P(), P b = P()) : P1(a), P2(b) {};
 	P intpo(Line y) {
-		P r;
+		P r = lineInter(P1, P2, y.P1, y.P2);
 		return r;
 	}
 	P dir() {
