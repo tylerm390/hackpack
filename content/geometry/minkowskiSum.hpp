@@ -16,6 +16,8 @@ template<class P> vector<P> minkSum(vector<vector<P>> &polys){
         rep(i, 0, n)
             dir.push_back(poly[(i+1)%n] - poly[i]);
     }
+    if(size(dir) == 0)
+        return {init};
     sort(all(dir), [&](P a, P b)->bool {
         bool sideA = a.x > 0 || (a.x == 0 && a.y > 0);
         bool sideB = b.x > 0 || (b.x == 0 && b.y > 0);
