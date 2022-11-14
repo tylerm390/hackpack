@@ -1,23 +1,33 @@
 /**
- * Description: returns the minkowski sum of 2 polygons
- * Status: Modified version of one tested on USACO 2022 January, Platinum: Multiple Choice Test.
+ * Description: returns the minkowski sum of several polygons
+ * Status: Tested on USACO 2022 January, Platinum: Multiple Choice Test.
  */
 
-template<class P> minkSum(vector<P> polyA, vector<P> polyB){
-    int n = sz(polyA), m = sz(polyB);
-    P init = polyA[0] + polyB[0];
+template<class P> vector<P> minkSum(vector<vector<P>> &polys){
+    P init(0, 0);
     vector<P> dir;
-    rep(i, 0, n) dir.push_back(polyA[(i+1)%n] - polyA[i]);
-    rep(i, 0, m) dir.push_back(polyB[(i+1)%m] - polyB[i]);
-    auto sideOfPlane = [&](P p) -> int{
-        if(a.x > 0 || (a.x == 0 && a.y > 0)) 
-            return 0;
-        return 1;
+    for(auto poly: polys) {
+        int n = sz(poly);
+        if(n == 0)
+            continue;
+        init = init + poly[0];
+        if(n == 1)
+            continue;
+        rep(i, 0, n)
+            dir.push_back(poly[(i+1)%n] - poly[i]);
     }
-    sort(all(dir), [&](P a, P b)->bool{
-        if(sideOfPlane(a) != sideOfPlane(b))
-            return sideOfPlane(a) < sideOfPlane(b);
+    sort(all(dir), [&](P a, P b)->bool {
+        bool sideA = a.x > 0 || (a.x == 0 && a.y > 0);
+        bool sideB = b.x > 0 || (b.x == 0 && b.y > 0);
+        if(sideA != sideB)
+            return sideA;
         return a.cross(b) > 0;
     });
-    rep(i, 0, sz(dir)) 
+    vector<P> sum;
+    P cur = init;
+    rep(i, 0, sz(dir)) {
+        sum.push_back(cur);
+        cur = cur + dir[i];
+    }
+    return sum;
 }
